@@ -3,10 +3,10 @@ from __future__ import annotations
 import allure
 from requests import session, Response
 
-from dm_api_account.apis.models.activate_registered_user_model import UserEnvelope
-from dm_api_account.apis.models.get_current_user_model import UserDetailsEnvelope
-from dm_api_account.apis.models.register_new_user import Registration
-from utilities import validate_request_json, validate_status_code
+from dm_api_account.models.activate_registered_user_model import UserEnvelope
+from dm_api_account.models.get_current_user_model import UserDetailsEnvelope
+from dm_api_account.models.register_new_user import Registration
+from dm_api_account.utilities import validate_request_json, validate_status_code
 
 
 class AccountApi:

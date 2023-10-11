@@ -3,8 +3,8 @@ from __future__ import annotations
 import allure
 from requests import session, Response
 
-from dm_api_account.apis.models.activate_registered_user_model import UserEnvelope
-from utilities import validate_request_json, validate_status_code
+from dm_api_account.models.activate_registered_user_model import UserEnvelope
+from dm_api_account.utilities import validate_request_json, validate_status_code
 
 
 class LoginApi:
